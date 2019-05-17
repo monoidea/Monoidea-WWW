@@ -1,0 +1,10 @@
+[% WRAPPER page.tt title = "monoidea's monothek cleaner" %]
+
+<h2>Check clean</p>
+<div>
+<form name="prepare_purchase" method="post" action="cleaner/check_clean">
+  <input type="submit" value="Check Clean">
+</form>
+</div>
+
+[% END %]

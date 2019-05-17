@@ -1,0 +1,13 @@
+[% WRAPPER page.tt title = "monoidea's monothek media queue" %]
+
+<h2>Export</p>
+<div>
+<form name="prepare_purchase" method="post" action="mediaqueue/export">
+  <span>Media account: <input type="text" name="media_account_id" value="" title="enter media account"></span><br/>
+  <span>Creation time: <input type="text" name="creation_time" value="" title="enter creation time"></span><br/>
+  <span>Duration: <input type="text" name="duration" value="" title="enter duration"></span><br/>
+  <input type="submit" value="Export">
+</form>
+</div>
+
+[% END %]

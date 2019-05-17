@@ -1,0 +1,5 @@
+[% WRAPPER page.tt title = "monoidea's monothek download" %]
+
+<h1>monoidea's monothek - gallery</h1>
+
+[% END %]

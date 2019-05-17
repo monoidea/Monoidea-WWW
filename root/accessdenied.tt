@@ -1,0 +1,9 @@
+[% WRAPPER page.tt title = "monoidea's monothek download" %]
+
+<h1>monoidea's monothek - access denied</h1>
+
+<p>
+You don't have permission on the requested resource.
+</p>
+
+[% END %]

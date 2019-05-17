@@ -1,0 +1,39 @@
+[% WRAPPER page.tt title = "monoidea's monothek purchase" %]
+
+<h2>Prepare purchase</p>
+<div>
+<form name="prepare_purchase" method="post" action="purchase/prepare">
+  <span>Session ID: <input type="text" name="session_id" value="" title="enter session ID"></span><br/>
+  <span>Token: <input type="text" name="token" value="" title="enter token"></span><br/>
+  <span>Media account: <input type="text" name="media_account_id" value="" title="enter media account"></span><br/>
+  <span>Product name: <input type="text" name="product_name" value="" title="enter product name"></span><br/>
+  <span>Position: <input type="text" name="position_id" value="" title="enter position"></span><br/>
+  <span>Recipe: <input type="text" name="recipe_id" value="" title="enter recipe"></span><br/>
+  <span>Amount: <input type="text" name="invoice_amount" value="" title="enter invoice amount"></span><br/>
+  <input type="submit" value="Prepare">
+</form>
+</div>
+
+<hr/>
+
+<h2>Cancel purchase</p>
+<div>
+<form name="cancel_purchase" method="post" action="purchase/cancel">
+  <span>Payment: <input type="text" name="payment_id" value="" title="enter payment"></span><br/>
+  <input type="submit" value="Prepare">
+</form>
+</div>
+
+<hr/>
+
+<h2>Complete purchase</p>
+<div>
+<form name="complete_purchase" method="post" action="purchase/completed">
+  <span>Payment: <input type="text" name="payment_id" value="" title="enter payment"></span><br/>
+  <input type="submit" value="Prepare">
+</form>
+</div>
+
+<hr/>
+
+[% END %]

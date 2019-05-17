@@ -1,0 +1,5 @@
+[% WRAPPER page.tt title = "monoidea's monothek" %]
+
+[% message %]
+
+[% END %]
