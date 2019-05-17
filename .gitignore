@@ -1,0 +1,9 @@
+*~
+root/*.html
+root/*.xml
+root/fonts/*
+root/scripts/*
+!root/scripts/ajaxTable.js
+!root/scripts/downloadList.js
+root/css/*
+root/images/*
